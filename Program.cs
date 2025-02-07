@@ -10,15 +10,15 @@ namespace ConsoleApp1
             string? yourName = null;   
 
             Console.WriteLine("Bienvenido a ESPAÑA");
-            Console.WriteLine("Pulse cualquier tecla para conseguir tu pasaporte");
+            Console.WriteLine("Pulse cualquier tecla para entrar al país");
             Console.ReadKey();
-            Console.WriteLine("Introduce tu nombre");
+            Console.WriteLine("Introduce tu nombre y tu DNI");
             yourName = Console.ReadLine();
 
-            Console.WriteLine($"Hola, {yourName} has sido enlistado en las fuerzas terrestres, creias que era asi de facil conseguir la nacionalidad morito?.");
+            Console.WriteLine($"Hola, {yourName} has sido enlistado en las fuerzas terrestres, espabila y no des tu información a cualquiera.");
             Console.WriteLine("Pulse cualquier tecla para continuar");
             Console.ReadKey();
-            Console.WriteLine("Desterrando a jovenlandia...");
+            Console.WriteLine("cargando...");
         }
     }
 }
